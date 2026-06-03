@@ -2,8 +2,8 @@
   "name": "Galaxy Dispatch App",
   "short_name": "GX Dispatch",
   "description": "Galaxy Haulage – Mobile Dispatch & Freight Management App",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/galaxy-dispatch/index.html",
+  "scope": "/galaxy-dispatch/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#d94f00",
@@ -27,21 +27,21 @@
       "name": "Create New Job",
       "short_name": "New Job",
       "description": "Create a new dispatch job",
-      "url": "./index.html#createJob",
+      "url": "/galaxy-dispatch/index.html#createJob",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     },
     {
       "name": "All Jobs",
       "short_name": "Jobs",
       "description": "View all active jobs",
-      "url": "./index.html#jobsList",
+      "url": "/galaxy-dispatch/index.html#jobsList",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     },
     {
       "name": "Barcode Scanner",
       "short_name": "Scanner",
       "description": "Scan freight barcodes",
-      "url": "./index.html#scanner",
+      "url": "/galaxy-dispatch/index.html#scanner",
       "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96" }]
     }
   ]
