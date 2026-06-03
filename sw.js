@@ -3,18 +3,18 @@
 //  Offline-first cache strategy
 // ═══════════════════════════════════════════════════
 
-const CACHE_NAME = 'galaxy-dispatch-v1';
-const CACHE_VERSION = '1.0.0';
+const CACHE_NAME = 'galaxy-dispatch-v2';
+const CACHE_VERSION = '1.0.1';
+const BASE = '/galaxy-dispatch';
 
 // Files to cache on install
 const PRECACHE_URLS = [
-  './',
-  './index.html',
-  './manifest.json',
-  './icons/icon-192x192.png',
-  './icons/icon-512x512.png',
-  './icons/icon-maskable-512x512.png',
-  // External CDN libraries – cache on first fetch
+  BASE + '/',
+  BASE + '/index.html',
+  BASE + '/manifest.json',
+  BASE + '/icons/icon-192x192.png',
+  BASE + '/icons/icon-512x512.png',
+  BASE + '/icons/icon-maskable-512x512.png',
 ];
 
 // External CDN resources to cache
